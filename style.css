@@ -1,0 +1,60 @@
+#myProgress {
+  display: none;
+  width: 70%;
+  background-color: grey;
+  font-color: black;
+  transition: transform .5s;
+  border-radius: 4px;
+  height:37px;
+}
+
+#myBar {
+  width: 0%;
+  height: 37px;
+  background-color: blue;
+  text-align: center;
+  line-height: 37px;
+  color: black;
+
+}
+#myProgress:hover{
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+fieldset
+{
+    border:5px solid blue;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    padding-bottom: 6%;
+    padding-top: 3%;
+}
+label
+{
+  font-family: verdana;
+  font-size: 30px;
+}
+
+input
+{
+  transition: transform .5s;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type=submit]
+{
+  margin-top: 2%;
+}
+
+input:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
